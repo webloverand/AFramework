@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="SturnV4"/>
+
+</Tracking>
+
+<Assembly name="SturnV4s_assembly" assemblyId="fb9b06583d2c4bd1babbed88f232e383">
+<Part name="SturnV4" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0001" translation="-1.19933e-16 0.4 1" rotation="AD: 1 1.4991614376231455e-16 -9.179716279951647e-33 180">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

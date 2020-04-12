@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebec142da5d14a68aed24763af78a9d, type: 3}
+  m_Name: AFUnitySetting
+  m_EditorClassIdentifier: 
+  unitySettingTool: 0
+  FileHeadStr: "/*******************************************************************\n*
+    Copyright(c)\n* \u6587\u4EF6\u540D\u79F0: #SCRIPTNAME#.cs\n* \u7B80\u8981\u63CF\u8FF0:\n*
+    \u4F5C\u8005: \u5343\u559C\n* \u90AE\u7BB1: 2470460089@qq.com\n******************************************************************/\nnamespace
+    AFramework\n{\n    using UnityEngine;\n    public class #SCRIPTNAME# \n    {\n\n
+    \   }\n}"
+  HierarchySwitch: 1
+  TextureSettingSwitch: 0
+  textureType: 8
+  spritePackingTag: 
+  AndroidImporterPlatformSettings: {fileID: 11400000, guid: a5f7862e0f9644184834b4e9f9298ff7,
+    type: 2}
+  iOSImporterPlatformSettings: {fileID: 11400000, guid: ef24124a167bd4f3aa34196000ab309d,
+    type: 2}
+  defaultImporterPlatformSettings: {fileID: 11400000, guid: 15f98cb401516495c9314e32c5fc203e,
+    type: 2}
+  namespaceName: AFramework
+  folder: Assets/

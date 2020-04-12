@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 738cbf5ceca06420c865757c7f68fed6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 0
+  fontName: Noto Sans CJK SC
+  fontNames:
+  - Noto Sans CJK SC
+  - SF Pro Display
+  - SF Pro Text
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

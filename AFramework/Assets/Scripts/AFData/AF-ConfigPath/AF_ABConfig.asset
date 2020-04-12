@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088ffd652c83748269936947462d04ee, type: 3}
+  m_Name: AF_ABConfig
+  m_EditorClassIdentifier: 
+  defaultDataSetPath: Assets/ResForAB/DataSetFile
+  m_AllClass:
+  - isNeedPackageAB: 1
+    ABClassType: Main
+    ARrecogType: 0
+    dataSetList:
+    - TargetDataSetName: 
+      mImagetTargetInfo:
+      - ImageTargetName: 
+        oneResInfo:
+          ResPath: 
+          isUseConfig: 0
+          ResPostion: {x: 0, y: 0, z: 0}
+          ResRotation: {x: 0, y: 0, z: 0}
+          ResScale: {x: 0, y: 0, z: 0}
+    ResInfoForPlane: []
+    AppType: 0000000001000000
+  - isNeedPackageAB: 0
+    ABClassType: NoPackageTest
+    ARrecogType: 0
+    dataSetList: []
+    ResInfoForPlane: []
+    AppType: 00000000
+  - isNeedPackageAB: 1
+    ABClassType: RecogTest
+    ARrecogType: 1
+    dataSetList:
+    - TargetDataSetName: SaturnV
+      mImagetTargetInfo:
+      - ImageTargetName: SaturnV
+        oneResInfo:
+          ResPath: 
+          isUseConfig: 0
+          ResPostion: {x: 0, y: 0, z: 0}
+          ResRotation: {x: 0, y: 0, z: 0}
+          ResScale: {x: 0, y: 0, z: 0}
+    ResInfoForPlane: []
+    AppType: 01000000
+  - isNeedPackageAB: 1
+    ABClassType: AutoAdd
+    ARrecogType: 0
+    dataSetList: []
+    ResInfoForPlane: []
+    AppType: 00000000
+  - isNeedPackageAB: 1
+    ABClassType: PlaneTest
+    ARrecogType: 2
+    dataSetList: []
+    ResInfoForPlane:
+    - ResPath: Assets/ResForAB/ABPlaneTest/Cube.prefab
+      isUseConfig: 0
+      ResPostion: {x: 0, y: 0, z: 0}
+      ResRotation: {x: 0, y: 0, z: 0}
+      ResScale: {x: 1, y: 1, z: 1}
+    AppType: 01000000
+  m_AllFileAB:
+  - mABIdentifier: ABMain
+    Path: Assets/ResForAB/ABMain
+    CategoryOfOwnership:
+    - Main
+  - mABIdentifier: ABNoPackageTest
+    Path: Assets/ResForAB/ABNoPackageTest
+    CategoryOfOwnership:
+    - NoPackageTest
+  - mABIdentifier: ABRecogTest
+    Path: Assets/ResForAB/ABRecogTest
+    CategoryOfOwnership:
+    - RecogTest
+  - mABIdentifier: ABAutoAdd
+    Path: Assets/ResForAB/ABAutoAdd
+    CategoryOfOwnership:
+    - AutoAdd
+    - RecogTest
+  - mABIdentifier: ABPlaneTest
+    Path: Assets/ResForAB/ABPlaneTest
+    CategoryOfOwnership:
+    - PlaneTest
+  m_AllPrefabAB: []
+  packageABType: 0
+  configWritingMode: 0
+  isDevelopOrOnlineAB: 1
+  CurrentAppType: 1
+  ABDevelopmentVersion: 0.1
+  ABOnlineVersion: 0.1
+  ABResLoadfrom: 2
+  ABDownURLPrefix: https://qianxi.fahaxiki.cn/AB
+  DevelopPrefix: DevelopAB
+  OnlinePrefix: OnlineAB

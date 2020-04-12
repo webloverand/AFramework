@@ -1,0 +1,11 @@
+{
+  "AvailableABVersions": [
+    0.1
+  ],
+  "NewABVersion": [
+    0.1
+  ],
+  "debugMode": 1,
+  "name": "AppInfoConfig",
+  "hideFlags": 0
+}

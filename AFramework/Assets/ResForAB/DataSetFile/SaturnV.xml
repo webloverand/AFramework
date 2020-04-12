@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="SaturnV"/>
+
+</Tracking>
+
+<Assembly name="SaturnVs_assembly" assemblyId="c53e299234b24fe08649f21ef11239fc">
+<Part name="SaturnV" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="front" translation="5.42253e-17 0.4 1.2" rotation="AD: 1 -6.778167379182577e-17 4.1504304925004736e-33 180">
+
+</EntryPoint>
+<EntryPoint name="side" translation="0 0.4 1.24092" rotation="AD: 1 -9.314493945800744e-17 -0.4142135623730951 180">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

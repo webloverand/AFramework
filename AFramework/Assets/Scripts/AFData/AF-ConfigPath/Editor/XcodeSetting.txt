@@ -1,0 +1,147 @@
+{
+  "TeamID": "JMVBNE2MUG",
+  "Version": "2.0",
+  "build": "5",
+  "BundleIdentifier": "com.qianxi.test",
+  "StaticlibraryDic": [
+    {
+      "isAdd": true,
+      "Key": "usr/lib/libz.tbd",
+      "Value": "Frameworks/libz.tbd",
+      "Description": null
+    },
+    {
+      "isAdd": false,
+      "Key": "usr/lib/libc++.tbd",
+      "Value": "Frameworks/libc++.tbd",
+      "Description": null
+    },
+    {
+      "isAdd": false,
+      "Key": "usr/lib/libstdc++.tbd",
+      "Value": "Frameworks/libstdc++.tbd",
+      "Description": null
+    }
+  ],
+  "buildPropertyDic": [
+    {
+      "isAdd": true,
+      "Key": "OTHER_LDFLAGS",
+      "Value": "-ObjC",
+      "Description": "-ObjC,-force_load同时加了报错,估计还要进行其他设置,暂时只用-ObjC"
+    },
+    {
+      "isAdd": true,
+      "Key": "ENABLE_BITCODE",
+      "Value": "NO",
+      "Description": "关闭BITCODE"
+    },
+    {
+      "isAdd": true,
+      "Key": "GCC_ENABLE_CPP_EXCEPTIONS",
+      "Value": "YES",
+      "Description": null
+    },
+    {
+      "isAdd": true,
+      "Key": "GCC_ENABLE_CPP_RTTI",
+      "Value": "YES",
+      "Description": ""
+    },
+    {
+      "isAdd": true,
+      "Key": "GCC_ENABLE_OBJC_EXCEPTIONS",
+      "Value": "YES",
+      "Description": null
+    },
+    {
+      "isAdd": true,
+      "Key": "PRODUCT_BUNDLE_IDENTIFIER",
+      "Value": "com.qianxi.test",
+      "Description": null
+    }
+  ],
+  "pListDataDic": [
+    {
+      "infoType": 0,
+      "isAdd": true,
+      "Key": "NSBluetoothAlwaysUsageDescription",
+      "Value": "AF requestments",
+      "Description": "蓝牙权限"
+    },
+    {
+      "infoType": 0,
+      "isAdd": true,
+      "Key": "NSBluetoothPeripheralUsageDescription",
+      "Value": "AF requestments",
+      "Description": null
+    },
+    {
+      "infoType": 0,
+      "isAdd": true,
+      "Key": "NSPhotoLibraryAddUsageDescription",
+      "Value": "AF requestments",
+      "Description": "相册权限"
+    },
+    {
+      "infoType": 0,
+      "isAdd": true,
+      "Key": "NSPhotoLibraryUsageDescription",
+      "Value": "AF requestments",
+      "Description": "相册权限"
+    },
+    {
+      "infoType": 0,
+      "isAdd": true,
+      "Key": "NSCameraUsageDescription",
+      "Value": "AF requestments",
+      "Description": "相机权限"
+    },
+    {
+      "infoType": 0,
+      "isAdd": true,
+      "Key": "NSMicrophoneUsageDescription",
+      "Value": "AF requestments",
+      "Description": null
+    }
+  ],
+  "frameworkToProjectList": [
+    {
+      "isAdd": true,
+      "Value": "Photos.framework",
+      "Description": null
+    },
+    {
+      "isAdd": true,
+      "Value": "AssetsLibrary.framework",
+      "Description": null
+    },
+    {
+      "isAdd": true,
+      "Value": "CoreLocation.framework",
+      "Description": null
+    },
+    {
+      "isAdd": true,
+      "Value": "MediaPlayer.framework",
+      "Description": null
+    },
+    {
+      "isAdd": true,
+      "Value": "CoreBluetooth.framework",
+      "Description": null
+    }
+  ],
+  "urlSchemeDic": [
+    {
+      "isAdd": false,
+      "Key": "AFTestAPP",
+      "Value": "com.qianxi.testAppend",
+      "Description": null
+    }
+  ],
+  "appQueriesSchemeList": [],
+  "CopyFileDic": [],
+  "CopyFolderDic": [],
+  "FilesCompileFlagDIC": []
+}

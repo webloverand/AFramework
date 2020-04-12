@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qianxi.afnative">
+    /*位置权限权限*/
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:required="false"/>
+    /*读写权限*/
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"  android:required="false"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"  android:required="false"/>
+    /*蓝牙权限*/
+    <uses-permission android:name="android.permission.BLUETOOTH" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>\
+    /*录音权限*/
+    <uses-permission android:name="android.permission.RECORD_AUDIO" android:required="false"/>
+
+    <application
+        android:requestLegacyExternalStorage="true">
+    </application>>
+
+</manifest>
